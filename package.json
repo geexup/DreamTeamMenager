@@ -1,0 +1,19 @@
+{
+  "name": "dreamteam-menager",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geexup/DreamTeamMenager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geexup/DreamTeamMenager/issues"
+  },
+  "homepage": "https://github.com/geexup/DreamTeamMenager#readme"
+}

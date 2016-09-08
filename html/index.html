@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="DreamTeam">
+<head>
+	<meta charset="UTF-8">
+	<title>DreamTeam</title>
+</head>
+<body ng-controller="ApplicationController as appCtrl">
+	{{"Hello, you're logined = " + appCtrl.isLogined}}
+	<br><br>
+	login : <input type="text" ng-model="appCtrl.username"><br>
+	pass : <input type="password" ng-model="appCtrl.password">
+	<button ng-click="appCtrl.login()">Login</button>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+	<script src="/js/app.js"></script>
+	<script src="/js/lib/core-users.js"></script>
+	<script src="/js/lib/core-login.js"></script>
+</body>
+</html>
